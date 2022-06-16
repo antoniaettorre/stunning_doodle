@@ -131,6 +131,6 @@ dmypy.json
 uploads/embs/*
 uploads/graphs/*
 !.gitkeep
-examples/private/
+examples/
 
 .idea/*

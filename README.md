@@ -1,6 +1,7 @@
 # Stunning Doodle
 
 Stunning Doodle is a tool for the visual analysis of Knowledge Graphs and Knowledge Graph Embeddings.
+A paper describing the tool, its use and purpose has been published at ESWC 2022 [[1]](#references).
 
 ## Requirements
 
@@ -36,7 +37,7 @@ If the virtual environment already exists, the application will directly start.
 To visualize a Knowledge Graph with Stunning Doodle, it is sufficient to upload the file defining your RDF graph in
 [Turtle](https://www.w3.org/TR/turtle/) or [N-Triples](https://www.w3.org/TR/n-triples/) syntax through the 
 menu "Upload Graph" on the left of the page (1). 
-Examples of KGs to visualize can be found in the directory `examples/KGs`.
+Examples of KGs to visualize can be found in the directory `examples/KGs` located on [Zenodo](https://doi.org/10.5281/zenodo.5769191).
 The corresponding graph representation will be shown in the central 
 area of the page (2). The name of the uploaded file is shown in the bottom right corner (3).  
 On the left, we find additional menus listing the namespace defined for the RDF graph (4), providing general 
@@ -77,7 +78,7 @@ It is also possible to navigate and explore the graph by using the buttons in th
 To analyze the graph embeddings computed from the visualized graph, it is necessary to upload a CSV file containing
 the IRIs and the embeddings for each node in the graph. The file should contain a line for each node in the graph.
 Each line must contain the complete IRI of a node followed by the corresponding embedding. Examples of embeddings file can 
-be found in the directory `examples/GEs`.  
+be found in the directory `examples/GEs` located on [Zenodo](https://doi.org/10.5281/zenodo.5769191).  
 The CSV containing the embeddings can be uploaded by using the file upload menu in the section "Upload Embeddings" (1).  
 Once a file for the embeddings is uploaded, a new button will be shown in the section "Node in focus" (2) when a node from 
 the graph is selected. When clicking on the button "Show closest nodes in the embedding space", the visualization 
@@ -93,3 +94,4 @@ are still available.
 
 ## References
 
+[1] Ettorre, A., Bobasheva, A., Michel, F., Faron, C. (2022). Stunning Doodle: A Tool for Joint Visualization and Analysis of Knowledge Graphs and Graph Embeddings. In: , et al. The Semantic Web. ESWC 2022. Lecture Notes in Computer Science, vol 13261. Springer, Cham. https://doi.org/10.1007/978-3-031-06981-9_22
